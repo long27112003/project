@@ -1,0 +1,177 @@
+.container {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+header>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+   height: 50px;
+}
+.menu>li{ 
+    list-style: none;
+    display: inline-block;
+    margin-right: 35px;
+    padding: 4px 6px;
+}
+.menu>li>a{   
+    color: #333 ;
+    font-weight: 500;
+    text-decoration: none;
+}
+#home {
+    color: #f45d96;
+}
+#shop {
+    margin: 0;
+    padding: 0;
+}
+#price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f45d96;
+}
+.banner {
+    min-height: 600px;
+    background-image: url(https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg.webp);
+}
+.banner-wrapper{
+    padding-top: 140px;
+    width: 45%;
+}
+.banner-wrapper>p{
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.banner-wrapper>h1{
+    font-size: 43px;
+    font-weight: 500;
+    font-family: "Libre Baskerville", serif;
+    padding-bottom: 30px;
+}
+.banner-wrapper>a{
+    padding: 15px 35px;
+    background-color: #f45d96;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.banner-wrapper>a{
+    cursor: pointer;
+}
+.benefits {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.row{
+    display: flex;
+    margin-right: 15px;
+}
+.item-icon{
+    margin-right: 32px;
+    float: left;
+}
+.item-text{
+    margin-left: 20px;
+    overflow: hidden;
+}
+.item-text>h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.item-text>p{
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    color: #444444;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+}
+.categoris-item{
+    margin-right: 30px;
+}
+.about {
+    padding-top: 100px;
+}
+.text-left{
+    max-width: 33%;
+}
+
+.text-right {
+    margin-left: 160px;
+    max-width: 58%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-text-right{
+    background: #ffffff;
+    box-shadow: 0px 10px 21px rgba(99, 134, 137, 0.16);
+    padding: 100px 90px 105px 70px;
+    margin-left: -95px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+}
+
+.about-text-right>a{
+    padding: 15px 35px;
+    background-color: #f45d96;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.arrive{
+    margin-top: 60px;
+}
+.arrive{
+    text-align: center;
+}
+span{
+    color: #f45d96;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+h2{
+    color: #111111;
+    font-size: 38px;
+    line-height: 1.4;
+    margin-top: 0px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+}
+p{
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    color: #444444;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+    padding-bottom: 30px;
+}
